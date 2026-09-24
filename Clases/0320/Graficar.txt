@@ -1,0 +1,5 @@
+plot [][-2:2] "SE.dat" using 1:4 with lines title "Exacta", \
+	"SBE.dat" using 1:4 with lines title "SB", \
+	"SA.dat" using 1:4 with lines title "Aproximada" 
+
+plot [][-2:2] 'SE.dat' using 1:4 with lines title 'Exacta'
